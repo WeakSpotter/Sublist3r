@@ -9,4 +9,4 @@ RUN pip install -r Sublist3r/requirements.txt
 EXPOSE 80
 
 # Run Sublist3r when the container launches
-CMD [ "python", "Sublist3r/sublist3r.py" ]
+ENTRYPOINT [ "python3", "Sublist3r/sublist3r.py" ]
